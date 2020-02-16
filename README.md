@@ -87,11 +87,15 @@ VPN : virtual Private Networks
  
 # Messaging Queues | System Design Basics
 https://www.youtube.com/watch?v=sfQwMu0SCT8&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=7
-
-
-
-
-
+ 1. simple system - Request responce model - synchronous request responce process.
+ 2. in Distributed system - Asynchronous request responce 
+   -  use Publisher- subscriber model , use Message Queues 
+    -  Rabbit MQ
+    - Zero MQ
+    - Kafka MQ
+3. Event Driven API mechanism, for buy/sell transaction, inventory consistency
+  ???????
+  
 
 # L16: The CAP Theorem
 https://www.youtube.com/watch?v=k-Yaq8AHlFA
