@@ -68,7 +68,7 @@ Data Partitioning Criteria
   2. Dynamic Sharding
     - has Global Lookup Table
     - Mongo DB stores, Config Server to store this information
-    - Hadoor- HDFS uses Name Node to store File System Meta Data.https://www.youtube.com/watch?v=ffE1mQWxyKM&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=5
+    - Hadoor- HDFS uses Name Node to store File System Meta Data.
     
     
 # Proxies vs VPNs | System Design Basics
@@ -85,6 +85,18 @@ VPN : virtual Private Networks
  - encrypt network packet data and request/responce
  
  
+# Messaging Queues | System Design Basics
+https://www.youtube.com/watch?v=sfQwMu0SCT8&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=7
+
+
+
+
+
+
+# L16: The CAP Theorem
+https://www.youtube.com/watch?v=k-Yaq8AHlFA
+trade off between Consistency , Availibility in presence of Partition in you distributed system.
+
 
 
 
