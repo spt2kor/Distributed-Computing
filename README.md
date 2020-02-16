@@ -94,7 +94,8 @@ https://www.youtube.com/watch?v=sfQwMu0SCT8&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS
     - Zero MQ
     - Kafka MQ
 3. Event Driven API mechanism, for buy/sell transaction, inventory consistency
-  ???????
+  Microservices Architecture - What are event driven architectures?
+  https://www.youtube.com/watch?v=uJ4JFMMbSO8
   
 
 # L16: The CAP Theorem
@@ -104,7 +105,8 @@ trade off between Consistency , Availibility in presence of Partition in you dis
 
 
 
-
+# Monolith vs Microservices | System Design Basics
+https://www.youtube.com/watch?v=F8ClTNWgkqY&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=8
 
 
 
