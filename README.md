@@ -70,10 +70,19 @@ Data Partitioning Criteria
     - Mongo DB stores, Config Server to store this information
     - Hadoor- HDFS uses Name Node to store File System Meta Data.https://www.youtube.com/watch?v=ffE1mQWxyKM&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=5
     
-  
+    
+# Proxies vs VPNs | System Design Basics
+  https://www.youtube.com/watch?v=02GbEzYgYIc&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=6
 
-  
-
+Proxies - intermediate Server/MAchine act as middlemen between Client and Web
+  - 1. Farward Proxy - send reqest from user to Web
+  - 2. Backward Proxy - send responce from servr to web
+  Benefit : REquest Filtering, blocking web sites, Caching frequent downloades into proxy server.hide user identity, track and log user activities.
+ - does not support websocket??
+VPN : virtual Private Networks
+ - create a tunnel connection from user to VPN gateway to Private SErvers/Company server.
+ - support HTTP,FTP and Websocket
+ - encrypt network packet data and request/responce
  
  
 
