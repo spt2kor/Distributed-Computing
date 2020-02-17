@@ -21,6 +21,9 @@ v. API - Spark API connects to multiple data source and diff languages(R-Languag
 
 
 
+# Hadoop vs Spark | Which One to Choose? | Hadoop Training | Spark Training | Edureka
+https://www.youtube.com/watch?v=xDpvyu0w0C8
+
 
 
 
