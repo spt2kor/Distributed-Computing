@@ -31,9 +31,22 @@ https://www.hashicorp.com/blog/making-gossip-more-robust-with-lifeguard/
 # Gossip Protocol / SWIM Protocol Overview
 https://www.serf.io/docs/internals/gossip.html
 
+# Lamport timestamps
+https://en.wikipedia.org/wiki/Lamport_timestamps
+  The algorithm of Lamport timestamps is a simple algorithm used to determine the order of events in a distributed computer system. As different nodes or processes will typically not be perfectly synchronized, this algorithm is used to provide a partial ordering of events with minimal overhead, and conceptually provide a starting point for the more advanced vector clock method.
+  
+  In pseudocode, the algorithm for sending is:
+    //event is known
+    time = time + 1;
+    //event happens
+    send(message, time);
+    
+  The algorithm for receiving a message is:
+    (message, time_stamp) = receive();
+    time = max(time_stamp, time) + 1;
 
-
-
+# Vector clock
+https://en.wikipedia.org/wiki/Vector_clock
 
 
 
