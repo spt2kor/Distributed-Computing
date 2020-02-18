@@ -23,6 +23,14 @@ if more DB added or deleted, then we need to REdistribute DB and Hash-Modulo Fun
 -Consistent Hashing Rajeev
 https://www.youtube.com/watch?v=QWeO2OB40VY   - IMP - good explaination.
 
+Gossip protocol - Wikipedia
+https://en.wikipedia.org/wiki/Gossip_protocol
+
+Consistance Hashing Used By 
+  - Apache Cassandra
+  - Amazon Dynamo DB 
+  - couchbase NoSQL DB (instead of virtual node   -> virtual buckets)
+
 # Caching in Web Application
 https://www.youtube.com/watch?v=joifNgoXXFk&list=PLtDbS11SJ-Dldyg4AuXtYbssjZJeYS6IR&index=2
 
